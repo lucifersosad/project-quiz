@@ -1,4 +1,4 @@
-const API_DOMAINS = "http://localhost:3002/";
+const API_DOMAINS = "https://project-5-database.vercel.app/";
 
 export const get = async (path) => {
   const response = await fetch(API_DOMAINS + path);
