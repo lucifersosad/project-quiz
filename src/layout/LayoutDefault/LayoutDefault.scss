@@ -1,0 +1,41 @@
+.layout-default{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+}
+.header{
+  display: flex;
+  background: orange;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li{
+      margin-left: 20px;
+    }
+  }
+}
+
+.main{
+  padding: 20px;
+  flex: 1;
+}
+
+.footer{
+  background: orange;
+  padding: 10px 20px;
+  text-align: center;
+  align-items: center;
+}
